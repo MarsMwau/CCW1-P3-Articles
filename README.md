@@ -1,13 +1,18 @@
+## Articles without AR
+
 ## Martha Mwau (May 2023)
-## Magazine Management Program
-The Magazine Management Program is a simple Ruby program that allows you to manage authors, magazines, and articles. You can create authors, assign articles to authors and magazines, and retrieve information about authors, magazines, and articles.
+
+## Description
+This Magazine Management Program is a simple Ruby program that allows you to manage authors, magazines, and articles. You can create authors, assign articles to authors and magazines, and retrieve information about authors, magazines, and articles.
 
 ## Features
-Create authors, magazines, and articles
-Assign articles to authors and magazines
-Retrieve information about authors, magazines, and articles
+1. Create authors, magazines, and articles
+2.Assign articles to authors and magazines
+3. Retrieve information about authors, magazines, and articles
+
 ## Requirements
-Ruby (version X.X.X)
+Ruby 
+
 ## Installation
 1. Clone the repository to your desktop
 git clone https://github.com/your-username/magazine-management-program.git
