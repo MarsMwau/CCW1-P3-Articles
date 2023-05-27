@@ -7,7 +7,7 @@ This Magazine Management Program is a simple Ruby program that allows you to man
 
 ## Features
 1. Create authors, magazines, and articles
-2.Assign articles to authors and magazines
+2. Assign articles to authors and magazines
 3. Retrieve information about authors, magazines, and articles
 
 ## Requirements
