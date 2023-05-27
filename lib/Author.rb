@@ -1,9 +1,24 @@
 class Author
-    attr_accessor :name
-    def initialize(name:)
-        @name = name
+    attr_reader :name
+  
+    def initialize(name)
+      @name = name
     end
-
-    def name()
+  
+    def articles
+      Article.all.select { |article| article.author == self }
     end
-end
+  
+    def magazines
+      articles.map { |article| article.magazine }.uniq
+    end
+  
+    def add_articles(magazine, title)
+      Article.new(self, magazine, title)
+    end
+  
+    def contributed
+      magazines.map { |magazine| magazine.category }.uniq
+    end
+  end
+  
